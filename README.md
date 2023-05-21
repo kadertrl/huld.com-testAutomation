@@ -1,11 +1,11 @@
-**_Author_** : Kader Tarlan
-## Huld.com
-####  Test Automation Project 
+_Author:   Kader Tarlan_ 
+## Huld.com Test Automation Project
 
 ------------
 ### About Project
 
-This project was developed with Java and Selenium for huld.com login page
+This project was developed with Java and Selenium for [Huld.com](https://www.hudl.com)
+
 
 -------------
 
@@ -33,44 +33,31 @@ This project was developed with Java and Selenium for huld.com login page
     ├── pom.xml
 
 
-## Installation - Setup
+## Setup
 
 ### 1. Open terminal
 
-### 2. Run git init before clone project
-> git init
-> 
-### 3. Clone project from git repository
->git clone https://github.com/kadertrl/huld.com-testAutomation.git
+### 2. Install Apache Maven latest release
+* **Go** https://maven.apache.org/download.cgi
 
-### 4. Go to test Project Directory in Terminal
-
-### 5. Install Apache Maven latest release.
-**Go** https://maven.apache.org/download.cgi
-
-**Install** Maven zip file, and unzip it to the folder where we want Maven to live.
-
-Also you can install maven on Mac with these commands:
-
-**Install Brew**  :
->/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
-
-Run **'brew help'** and see if it's working
-
-Homebrew has been installed on you computer. You need to modify your PATH like this:
->export PATH=/usr/local/bin:$PATH
-
-Then install maven with Brew: 
->brew install maven
-
-### 6. Run commands in terminal 
->java -version
-
->mkdir -p /usr/local/apache-maven/apache-maven-3.8.4
-
+* **Install** Maven zip file, and unzip it to the folder where we want Maven to live.
+* **Run this command in terminal for unzip** 
 >sudo unzip apache-maven-3.8.4-bin.zip -d /usr/local/apache-maven/apache-maven-3.8.4
 
-### 7. Adding Maven to the Environment Path
+####Also you can install maven on Mac with these commands:
+
+* **Install Brew :**
+>/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+
+* Run **'brew help'** command and see if it's working
+
+* Homebrew has been installed on you computer. You need to **modify** your PATH like this:
+>export PATH=/usr/local/bin:$PATH
+
+* Then install maven with **Brew:**
+>brew install maven
+
+### 3. Adding Maven to the Environment Path
 **Open bashrc**  :
 >vim ~/.bashrc
 
@@ -87,26 +74,36 @@ Then install maven with Brew:
 
 > mvn -version
 
-### 8.Go to test Project Directory in Terminal
 
-### 9.Run tests
+## Installation
+### 1. Open terminal
 
-Run all  test on default browser :
+### 2. Run git init before clone project
+> git init
+>
+### 3. Clone project from git repository
+>git clone https://github.com/kadertrl/huld.com-testAutomation.git
+
+### 4. Go to test Project Directory in Terminal
+
+### 5.Run tests
+
+* Run all  test on default browser :
 >mvn clean test
 
-Run test with desired browser ( chrome or firefox )  :
+*  Run test with desired browser ( chrome or firefox )  :
 > mvn -Dbrowser=firefox test  
 > mvn -Dbrowser=chrome test
 
-Run specific test class :
+*  Run specific test class :
 >mvn clean test -Dtest=LoginTests
 
-Run only desired test:
+*  Run only desired test:
 >mvn -Dtest=LoginTests#testLoginButtonsOnLandingScreen test
 
 
 ------------
-### 10. Test cases:
+### 6. Test cases:
 
 
 	 Given A user navigates to 'hudl.com'
@@ -195,8 +192,7 @@ Run only desired test:
 	 Then A user should be redirect to landing screen again
 	 
 	
-
-### Tests path:
+### 7. Tests path:
     //hudl-test-projects/src/test/java/tests/LoginTests.java
 
 ####  Documentaries:
