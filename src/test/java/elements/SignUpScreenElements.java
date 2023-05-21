@@ -1,7 +1,7 @@
 package elements;
 
 import org.openqa.selenium.WebDriver;
-import widgets.ScreenMethods;
+import basefiles.ScreenMethods;
 
 
 public class SignUpScreenElements extends ScreenMethods {

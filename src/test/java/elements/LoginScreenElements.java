@@ -3,7 +3,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement ;
 import org.openqa.selenium.support.FindBy;
 
-import widgets.ScreenMethods;
+import basefiles.ScreenMethods;
 
 
 public class LoginScreenElements extends ScreenMethods {
