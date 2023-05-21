@@ -2,10 +2,10 @@ package tests;
 import org.junit.FixMethodOrder;
 import org.junit.Test;
 import org.junit.runners.MethodSorters;
-import widgets.TestBase;
+import basefiles.TestBase;
 import static constants.UIConstants.VALIDEMAIL;
 import static constants.UIConstants.VALIDPASSWORD;
-import static widgets.ScreenMethods.createRandomString;
+import static basefiles.ScreenMethods.createRandomString;
 
 @FixMethodOrder(MethodSorters.NAME_ASCENDING)
 public class LoginTests extends TestBase {

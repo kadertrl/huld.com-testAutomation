@@ -25,7 +25,7 @@ This project was developed with Java and Selenium for [Huld.com](https://www.hud
            ├── elements     #elements directory for locators
            ├── screens      #screen directory for methods screen base
            ├── tests        #tests directory for test itself
-           ├── widgets      #widgets directory for setup of driver and selenium driver builder
+           ├── basefiles    #basefiles directory for setup of driver and selenium driver builder
               ├── SeleniumDriverBuilder     #it has a build method to manage the running of tests on different operating systems and browsers
               ├── Screen Methods            #it has common methods of framework
               ├── TestBase                  #it has a setup method for driver

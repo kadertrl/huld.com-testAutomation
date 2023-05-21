@@ -55,7 +55,7 @@
       <recent name="testdatas" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.LoginTests">
+  <component name="RunManager" selected="JUnit.LoginTests.testUnsuccessfulLogInWithRegisteredEmailAndWrongPassword">
     <configuration name="LoginTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="hudl-test-projects" />
       <extension name="coverage">
@@ -103,7 +103,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LoginTests.testUserCanLogOutAfterSuccessfullyLogin" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="LoginTests.testUnsuccessfulLogInWithRegisteredEmailAndWrongPassword" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="hudl-test-projects" />
       <extension name="coverage">
         <pattern>
@@ -113,7 +113,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="tests" />
       <option name="MAIN_CLASS_NAME" value="tests.LoginTests" />
-      <option name="METHOD_NAME" value="testUserCanLogOutAfterSuccessfullyLogin" />
+      <option name="METHOD_NAME" value="testUnsuccessfulLogInWithRegisteredEmailAndWrongPassword" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -137,11 +137,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.LoginTests.testUnsuccessfulLogInWithRegisteredEmailAndWrongPassword" />
         <item itemvalue="JUnit.LoginTests" />
         <item itemvalue="JUnit.LoginTests.testNeedHelpButtonOnLoginScreen" />
         <item itemvalue="JUnit.LoginTests.testcheckHudlLoginFields" />
         <item itemvalue="JUnit.LoginTests.testLoginButtonsOnLandingScreen" />
-        <item itemvalue="JUnit.LoginTests.testUserCanLogOutAfterSuccessfullyLogin" />
       </list>
     </recent_temporary>
   </component>
@@ -169,12 +169,12 @@
           <option name="timeStamp" value="23" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/widgets/SeleniumDriverBuilder.java</url>
+          <url>file://$PROJECT_DIR$/src/test/java/basefiles/SeleniumDriverBuilder.java</url>
           <line>23</line>
           <option name="timeStamp" value="26" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/widgets/TestBase.java</url>
+          <url>file://$PROJECT_DIR$/src/test/java/basefiles/TestBase.java</url>
           <line>22</line>
           <option name="timeStamp" value="28" />
         </line-breakpoint>
