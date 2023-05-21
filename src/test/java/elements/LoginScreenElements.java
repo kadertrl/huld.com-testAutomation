@@ -18,34 +18,28 @@ public class LoginScreenElements extends ScreenMethods {
 	@FindBy(css="*[data-qa-id='password-input']")
 	protected WebElement  PASSWORDINPUT;
 
-	@FindBy(css="[data-qa-id='login-btn']")
+	@FindBy(xpath="//*[@data-qa-id='login-btn']")
 	protected WebElement  LOGINBTN;
 
-	@FindBy(css="[data-qa-id='remember-me-checkbox-label']")
+	@FindBy(xpath="//*[@data-qa-id='remember-me-checkbox-label']")
 	protected WebElement  REMEMBERME;
 
-	@FindBy(css="[data-qa-id='need-help-link']")
+	@FindBy(xpath="//*[@data-qa-id='need-help-link']")
 	protected WebElement  NEEDHELPLINK;
 
-	@FindBy(css="[data-qa-id='log-in-with-organization-btn']")
+	@FindBy(xpath="//*[@data-qa-id='log-in-with-organization-btn']")
 	protected WebElement  LOGINWITHORGANIZATION;
 
 	@FindBy(linkText="Sign up")
 	protected WebElement  SIGNUPONLOGINSCREEN;
 
-	@FindBy(css="[data-qa-id='error-display']")
+	@FindBy(xpath="//*[@data-qa-id='error-display']")
 	protected WebElement  LOGINERRORMSG;
 
-	@FindBy(css="[data-qa-id='login-help-headline']")
+	@FindBy(xpath="//*[@data-qa-id='login-help-headline']")
 	protected WebElement  LOGINHELPHEADLINE;
 
-	@FindBy(css="[data-qa-id='email-help-headline']")
+	@FindBy(xpath="//*[@data-qa-id='email-help-headline']")
 	protected WebElement  EMAILHELPHEADLINE;
-
-	@FindBy(css="[data-qa-id='forgot-email-copy']")
-	protected WebElement  FORGOTMEMAILDETAILS;
-
-	@FindBy(css="[data-qa-id='password-reset-submit-btn']")
-	protected WebElement  PASSWORDRESET;
 
 }

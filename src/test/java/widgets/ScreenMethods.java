@@ -4,14 +4,10 @@ import java.awt.Toolkit;
 import java.time.Duration;
 import java.util.List;
 import org.apache.commons.lang3.RandomStringUtils;
+import org.openqa.selenium.*;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.Dimension;
-import org.openqa.selenium.NoSuchElementException;
-import org.openqa.selenium.Point;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 import static org.junit.Assert.fail;
@@ -34,7 +30,7 @@ public class ScreenMethods {
 	}
 	
 		public WebElement waitForElement(WebElement element ) {
-		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(1L));
+		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(30));
    		return wait.until(ExpectedConditions.elementToBeClickable(element));
    	}
 
@@ -56,6 +52,10 @@ public class ScreenMethods {
 		} catch (NoSuchElementException e) {
 			return false;
 		}
+	}
+
+	public void scrollToElement(WebElement element) {
+		((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView(true);", element);
 	}
 
 	public static String createRandomString() {

@@ -13,6 +13,14 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -47,7 +55,7 @@
       <recent name="testdatas" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.LoginTests">
+  <component name="RunManager" selected="JUnit.LoginTests.testNeedHelpButtonOnLoginScreen">
     <configuration name="LoginTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="hudl-test-projects" />
       <extension name="coverage">
@@ -129,10 +137,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.LoginTests.testNeedHelpButtonOnLoginScreen" />
         <item itemvalue="JUnit.LoginTests" />
         <item itemvalue="JUnit.LoginTests.testcheckHudlLoginFields" />
         <item itemvalue="JUnit.LoginTests.testLoginButtonsOnLandingScreen" />
-        <item itemvalue="JUnit.LoginTests.testNeedHelpButtonOnLoginScreen" />
         <item itemvalue="JUnit.LoginTests.testUserCanLogOutAfterSuccessfullyLogin" />
       </list>
     </recent_temporary>

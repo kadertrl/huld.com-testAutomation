@@ -12,19 +12,22 @@ public class NeedHelpScreenElements extends ScreenMethods {
 		super(driver);
 	}
 
-	@FindBy(css="[data-qa-id='login-help-headline']")
+	@FindBy(xpath="//*[@data-qa-id='login-help-headline']")
 	protected WebElement  LOGINHELPHEADLINE;
 
-	@FindBy(css="[data-qa-id='email-help-headline']")
+	@FindBy(xpath="//input[@data-qa-id='password-reset-input']")
+	protected WebElement  PASSWORDRESETINPUT;
+
+	@FindBy(xpath="//*[@data-qa-id='email-help-headline']")
 	protected WebElement  EMAILHELPHEADLINE;
 
-	@FindBy(css="[data-qa-id='forgot-email-copy']")
-	protected WebElement  FORGOTMEMAILDETAILS;
+	@FindBy(partialLinkText="support@hudl.com")
+	protected WebElement  SUPPORTLINK;
 
-	@FindBy(css="[data-qa-id='password-reset-submit-btn']")
-	protected WebElement  PASSWORDRESET;
-
-	@FindBy(css="[data-qa-id='go-back']")
+	@FindBy(partialLinkText="Back")
 	protected WebElement GOBACKBUTTON;
+
+	@FindBy(xpath="//*[@data-qa-id='still-trouble-copy']")
+	protected WebElement SUPPORTFIELD;
 
 }

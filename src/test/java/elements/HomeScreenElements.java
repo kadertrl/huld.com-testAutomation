@@ -12,7 +12,7 @@ public class HomeScreenElements extends ScreenMethods {
 		super(driver);
 	}
 
-	@FindBy(css= "[data-qa-id='webnav-globalnav-home']")
+	@FindBy(xpath="//*[@data-qa-id='webnav-globalnav-home']")
 	protected WebElement  HOMEBUTTON;
 
 	@FindBy(className="hui-globaluseritem")
@@ -21,6 +21,6 @@ public class HomeScreenElements extends ScreenMethods {
 	@FindBy(className="hui-globaluseritem__email")
 	protected WebElement  ENTEREDUSEREMAIL;
 
-	@FindBy(css= "[data-qa-id='webnav-usermenu-logout']")
+	@FindBy(xpath="//*[@data-qa-id='webnav-usermenu-logout']")
 	protected WebElement  LOGOUTBUTTON;
 }

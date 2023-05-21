@@ -12,12 +12,12 @@ public class OrganizationLoginElements extends ScreenMethods {
 		super(driver);
 	}
 
-	@FindBy(css="[data-qa-id='log-in-with-email-and-password']")
+	@FindBy(xpath="//*[@data-qa-id='log-in-with-email-and-password']")
 	protected WebElement LOGINWITHEMAILANDPASSWORD;
 
 	@FindBy(className="uni-headline")
 	protected WebElement  ORGANIZATIONPAGEHEADER;
 
-	@FindBy(css="[data-qa-id='go-back']")
+	@FindBy(xpath="//*[@data-qa-id='go-back']")
 	protected WebElement GOBACKBUTTON;
 }
