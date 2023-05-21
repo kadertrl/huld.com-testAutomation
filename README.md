@@ -44,7 +44,7 @@ This project was developed with Java and Selenium for [Huld.com](https://www.hud
 * **Run this command in terminal for unzip** 
 >sudo unzip apache-maven-3.8.4-bin.zip -d /usr/local/apache-maven/apache-maven-3.8.4
 
-####Also you can install maven on Mac with these commands:
+#### Also you can install maven on Mac with these commands:
 
 * **Install Brew :**
 >/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
@@ -58,7 +58,7 @@ This project was developed with Java and Selenium for [Huld.com](https://www.hud
 >brew install maven
 
 ### 3. Adding Maven to the Environment Path
-**Open bashrc**  :
+**Open bash**  :
 >vim ~/.bashrc
 
 **Add Maven-specific lines to the file**:
@@ -68,7 +68,7 @@ This project was developed with Java and Selenium for [Huld.com](https://www.hud
 > 
 >export PATH=$M2:$PATH
 
-**Run commands**:
+**Run commands and check maven version**:
 
 > source ~/.bashrc
 
@@ -86,17 +86,20 @@ This project was developed with Java and Selenium for [Huld.com](https://www.hud
 
 ### 4. Go to test Project Directory in Terminal
 
+* Please run this command to make sure compiling each module from scratch:
+>mvn clean install
+
 ### 5.Run tests
 
-* Run all  test on default browser :
->mvn clean test
+* Run all test on default browser :
+>mvn test
 
 *  Run test with desired browser ( chrome or firefox )  :
 > mvn -Dbrowser=firefox test  
 > mvn -Dbrowser=chrome test
 
 *  Run specific test class :
->mvn clean test -Dtest=LoginTests
+>mvn test -Dtest=LoginTests
 
 *  Run only desired test:
 >mvn -Dtest=LoginTests#testLoginButtonsOnLandingScreen test
