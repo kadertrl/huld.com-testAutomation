@@ -47,7 +47,7 @@
       <recent name="testdatas" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.LoginTests.testcheckHudlLoginFields">
+  <component name="RunManager" selected="JUnit.LoginTests">
     <configuration name="LoginTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="hudl-test-projects" />
       <extension name="coverage">
@@ -129,9 +129,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.LoginTests" />
         <item itemvalue="JUnit.LoginTests.testcheckHudlLoginFields" />
         <item itemvalue="JUnit.LoginTests.testLoginButtonsOnLandingScreen" />
-        <item itemvalue="JUnit.LoginTests" />
         <item itemvalue="JUnit.LoginTests.testNeedHelpButtonOnLoginScreen" />
         <item itemvalue="JUnit.LoginTests.testUserCanLogOutAfterSuccessfullyLogin" />
       </list>

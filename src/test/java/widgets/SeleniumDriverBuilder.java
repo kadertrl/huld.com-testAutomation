@@ -20,7 +20,7 @@ public abstract class SeleniumDriverBuilder {
 		public WebDriver build() throws Exception {
 
 			String OS = System.getProperty("os.name", "generic").toLowerCase(Locale.ENGLISH);
-			String browserName = System.getProperty("browser", "firefox").toLowerCase();
+			String browserName = System.getProperty("browser", "chrome").toLowerCase();
 			String chromeDriverPath, firefoxDriverPath ;
 
 			if ((OS.contains("mac")) || (OS.contains("darwin"))) {
